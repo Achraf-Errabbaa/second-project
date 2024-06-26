@@ -2,89 +2,87 @@
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-div .container-1{
+.first-header{
     display: flex;
-    align-items: center;
-    justify-content:space-around;
-    gap: 10px;
-    box-shadow: 0 4px 8px 0 #5757571d, 0 6px 20px 0 #5757571d;
-}
-
-.liv-1 a {
-    padding: 10px;
-    text-decoration: none;
-    color: blue;
-}
-button{
-    padding: 10px 20px;
-    background-color: #ffffff;
-    box-shadow:2px 2px 10px #a2a2a246 ;
-    color: orangered;
-    font-weight: 600;
-    font-size: 14px;
-}
-span p {
-    color: red;
-    font-size: 20px;
-}
-.container-2 {
-    display: flex;
-    gap: 20px;
     justify-content: center;
-    padding-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
 }
-.liv-2{
-    padding: 40px;
-    display: block;
-    flex-direction: column;
-    gap: 10px;
-    box-shadow:2px 2px 10px #a2a2a246 ;
-    width: 300px;
+.first-header .part1-text{
+    text-align: left;
+    align-items: left;
 }
-h1{
-    padding-top: 10px;
-    padding-bottom: 10px;
+.part1-text h1{ 
+    font-size: 60px;
+    color: darkblue;
 }
-.Anything-2{
-    padding: 20px;
-    background-color: orangered;
-    color: white;
-    border: none;
-    border-radius: 4px;
-}
-footer{
-    background-color: blue;
-    padding: 40px;
+.part1-text{
     display: flex;
     flex-direction: column;
+}
+.both-btn{
+    display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
+    padding-top: 20px;
+
 }
-footer h1 {
-    color: orangered;
-}
-.class-A a {
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-}
-.class-B{
-    text-align: center;
+.btn-1{
+    padding: 13px;
+    border: 1px solid;
+    border-radius: 50px;
+    width: 13vw;
+    background-color: rgb(255, 47, 0);
     color: white;
 }
-.class-C{
-    text-align: center;
-    padding: 20px;
-    padding-bottom: 10px;
+.btn-2{
+        padding: 13px;
+        border: 1px solid;
+        border-radius: 50px;
+        width: 13vw;
+        border: none;
+        background-color: transparent;
 }
-.class-C p {
+.contect-continer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.paragraphs{
+    padding-right: 500px;
+    padding-bottom: 40px;
+}
+.paragraphs h5{
+    color: coral;
+}
+.paragraphs h1{
+    color: darkblue;
+}
+.email-text{
+    display: flex;
+    align-items: center;
+    
+    gap: 30px;
+}
+.email-text input{
+    width: 25vw;
+    background-color: rgb(229, 243, 248);
+    height: 35px;
+}
+.comment{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+textarea{
+    background-color: rgb(229, 243, 248);
+}
+.send-msg{
     color: white;
-}
-.class-D{
-    /* display: flex;
-    gap: 20px; */
-    padding: 10px;
+    background-color: rgb(255, 47, 0);
+    padding: 13px;
+    border: 1px solid;
+    border-radius: 80px;
+    width: 13vw;
+    
 }
