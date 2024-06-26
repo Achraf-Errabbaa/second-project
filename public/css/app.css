@@ -2,3 +2,87 @@
     margin: 0;
     padding: 0;
 }
+.first-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.first-header .part1-text{
+    text-align: left;
+    align-items: left;
+}
+.part1-text h1{ 
+    font-size: 60px;
+    color: darkblue;
+}
+.part1-text{
+    display: flex;
+    flex-direction: column;
+}
+.both-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+.btn-1{
+    padding: 13px;
+    border: 1px solid;
+    border-radius: 50px;
+    width: 13vw;
+    background-color: rgb(255, 47, 0);
+    color: white;
+}
+.btn-2{
+        padding: 13px;
+        border: 1px solid;
+        border-radius: 50px;
+        width: 13vw;
+        border: none;
+        background-color: transparent;
+}
+.contect-continer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.paragraphs{
+    padding-right: 500px;
+    padding-bottom: 40px;
+}
+.paragraphs h5{
+    color: coral;
+}
+.paragraphs h1{
+    color: darkblue;
+}
+.email-text{
+    display: flex;
+    align-items: center;
+    
+    gap: 30px;
+}
+.email-text input{
+    width: 25vw;
+    background-color: rgb(229, 243, 248);
+    height: 35px;
+}
+.comment{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+textarea{
+    background-color: rgb(229, 243, 248);
+}
+.send-msg{
+    color: white;
+    background-color: rgb(255, 47, 0);
+    padding: 13px;
+    border: 1px solid;
+    border-radius: 80px;
+    width: 13vw;
+    
+}
